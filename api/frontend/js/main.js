@@ -2,8 +2,8 @@ let root = document.querySelector('.root');
 let task1 = document.querySelector('.task1');
 let task2 = document.querySelector('.task2');
 
-const products = 'http://ktraff.local/products/index';
-const orders = 'http://ktraff.local/products/view';
+const products = 'http://ktraff.local/products';
+const orders = 'http://ktraff.local/orders';
 
 task1.addEventListener('click', (e)=>{
     classActive(e);
